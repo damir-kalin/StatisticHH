@@ -54,7 +54,8 @@
 #### Сервис телеграмм бота
 Необходим для взаимодействия с телеграмм ботом.
 Пример использования.
-<img src="source/start.png" width="200" height="50"/>
+
+<img src="source/start.png" width="400" height="200"/>
 
 ![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/start.png)
 ![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/run.png)
