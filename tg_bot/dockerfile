@@ -1,0 +1,16 @@
+FROM python:3.11
+
+ARG API_HOST
+ARG API_PORT
+ARG TZ
+ARG TG_TOKEN_BOT
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install -r requirements.txt
+
+ENV PYTHONPATH=/app
+
+ENTRYPOINT python3 /app/main.py

@@ -1,0 +1,21 @@
+FROM python:3.11
+
+ARG POSTGRES_HOST
+ARG POSTGRES_PORT
+ARG POSTGRES_DB
+ARG POSTGRES_USER
+ARG POSTGRES_PASSWORD
+
+ARG API_HOST
+ARG API_PORT
+ARG TZ 
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install -r requirements.txt
+
+ENV PYTHONPATH=/app
+
+ENTRYPOINT sh -c "uvicorn main:app --reload --host 0.0.0.0 --port 8000"

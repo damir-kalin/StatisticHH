@@ -1,0 +1,26 @@
+FROM python:3.11
+
+RUN apt-get update && apt-get -y install cron vim
+
+WORKDIR /app
+
+COPY . /app
+COPY crontab /etc/cron.d/crontab
+
+ARG DATE_START
+ARG TZ 
+
+ENV VIRTUAL_ENV "/venv"
+RUN python -m venv $VIRTUAL_ENV
+ENV PATH "$VIRTUAL_ENV/bin:$PATH"
+ENV PYTHONPATH "$VIRTUAL_ENV/bin/python3"
+
+RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN chmod 0644 /etc/cron.d/crontab
+RUN /usr/bin/crontab /etc/cron.d/crontab
+
+RUN chmod +x /app/pipline.py
+RUN echo 'API_HOST='$API_HOST'\nAPI_PORT='$API_PORT >> /app/.env
+
+ENTRYPOINT python3 /app/pipline.py ${DATE_START} && cron -f
+

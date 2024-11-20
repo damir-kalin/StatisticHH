@@ -1,0 +1,12 @@
+FROM postgres:14
+
+ARG POSTGRES_DB
+ARG POSTGRES_USER
+ARG POSTGRES_PASSWORD
+ARG POSTGRES_HOST
+ARG POSTGRES_PORT
+ARG TZ
+
+COPY ./city.csv /app/city.csv
+
+COPY ./init_db.sh /docker-entrypoint-initdb.d/init_db.sh
