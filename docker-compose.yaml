@@ -22,7 +22,6 @@ services:
     networks:
       stand_net_bridge:
         ipv4_address: 172.16.1.5
-      stand_net:
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
       interval: 10s
