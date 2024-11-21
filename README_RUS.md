@@ -55,17 +55,17 @@
 Необходим для взаимодействия с телеграмм ботом.
 Пример использования.
 
-<img src="source/start.png" width="600" height="400"/>
-<img src="source/run.png" width="600" height="400"/>
-<img src="source/start_date.png" width="600" height="400"/>
-<img src="source/end_date.png" width="600" height="400"/>
-<img src="source/professions.png" width="600" height="400"/>
-<img src="source/cities.png" width="600" height="400"/>
-<img src="source/dashboards.png" width="600" height="400"/>
-<img src="source/count_vacancies.png" width="600" height="400"/>
-<img src="source/avg_salaries.png" width="600" height="400"/>
-<img src="source/count_shedule.png" width="600" height="400"/>
-<img src="source/count_skills.png" width="600" height="400"/>
+<img src="source/start.png" width="1200" height="600"/>
+<img src="source/run.png" width="1200" height="600"/>
+<img src="source/start_date.png" width="1200" height="600"/>
+<img src="source/end_date.png" width="1200" height="600"/>
+<img src="source/professions.png" width="1200" height="600"/>
+<img src="source/cities.png" width="1200" height="600"/>
+<img src="source/dashboards.png" width="1200" height="600"/>
+<img src="source/count_vacancies.png" width="1200" height="600"/>
+<img src="source/avg_salaries.png" width="1200" height="600"/>
+<img src="source/count_shedule.png" width="1200" height="600"/>
+<img src="source/count_skills.png" width="1200" height="600"/>
 
 
 ### Требования
