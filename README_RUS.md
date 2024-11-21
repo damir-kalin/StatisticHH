@@ -62,10 +62,10 @@
 <img src="source/professions.png" width="1200" height="600"/>
 <img src="source/cities.png" width="1200" height="600"/>
 <img src="source/dashboards.png" width="1200" height="600"/>
-<img src="source/count_vacancies.png" width="1200" height="600"/>
-<img src="source/avg_salaries.png" width="1200" height="600"/>
-<img src="source/count_shedule.png" width="1200" height="600"/>
-<img src="source/count_skills.png" width="1200" height="600"/>
+<img src="source/count_vacancies.jpg" width="1200" height="600"/>
+<img src="source/avg_salaries.jpg" width="1200" height="600"/>
+<img src="source/count_shedule.jpg" width="1200" height="600"/>
+<img src="source/count_skills.jpg" width="1200" height="600"/>
 
 
 ### Требования
