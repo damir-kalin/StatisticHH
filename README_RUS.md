@@ -55,19 +55,18 @@
 Необходим для взаимодействия с телеграмм ботом.
 Пример использования.
 
-<img src="source/start.png" width="400" height="200"/>
+<img src="source/start.png" width="600" height="400"/>
+<img src="source/run.png" width="600" height="400"/>
+<img src="source/start_date.png" width="600" height="400"/>
+<img src="source/end_date.png" width="600" height="400"/>
+<img src="source/professions.png" width="600" height="400"/>
+<img src="source/cities.png" width="600" height="400"/>
+<img src="source/dashboards.png" width="600" height="400"/>
+<img src="source/count_vacancies.png" width="600" height="400"/>
+<img src="source/avg_salaries.png" width="600" height="400"/>
+<img src="source/count_shedule.png" width="600" height="400"/>
+<img src="source/count_skills.png" width="600" height="400"/>
 
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/start.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/run.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/start_date.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/end_date.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/professions.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/cities.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/dashboards.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/count_vacancies.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/avg_salaries.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/count_shedule.png)
-![alt text](https://github.com/damir-kalin/StatisticHH/tree/main/source/count_skills.png)
 
 ### Требования
 Для установки и запуска проекта, необходим [Docker](https://www.docker.com/) и бот в телеграмме.
